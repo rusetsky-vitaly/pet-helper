@@ -1,0 +1,41 @@
+.login-wrap {
+  min-height: 100%;
+  padding: 5.8rem 3.5rem;
+  .pet_helper_logo {
+    background: url('../images/pethelper_logo.svg') center no-repeat;
+    width: 17rem;
+    height: 4rem;
+    display: block;
+    margin: 0 auto;
+    text-indent: -9999rem;
+  }
+  form {
+    width: 100%;
+    margin: 3.4rem 0 .4rem;
+    input {
+      width: 88%;
+      padding: 0 6%;
+      height: 3.2rem;
+      &:first-child {
+        margin-bottom: 1.3rem;
+      }
+    }
+  }
+  .forgot {
+    font-size: 1.3rem;
+  }
+  .btn {
+    &.main {
+      display: block;
+      text-align: center;
+      margin: 2.2rem 0 0 0;
+    }
+  }
+  .sign-up {
+    font-size: 1.2rem;
+    margin: 1.15rem 0 0 0;
+    span {
+      color: #009688;
+    }
+  }
+}

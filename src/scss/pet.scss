@@ -1,0 +1,41 @@
+.pet-wrap {
+  &.tile {
+    ul {
+      &.tags {
+        margin: .1rem 0 0 0;
+        padding: 0;
+        li {
+          display: inline-block;
+          span {
+            border-radius: 2rem;
+            display: block;
+            background: #e5e5e5;
+            margin: 0 .6rem .1rem 0;
+            font-size: 1rem;
+            padding: .1rem .55rem;
+            &.active {
+              background: #f98700;
+              color: #fff;
+            }
+          }
+        }
+      }
+    }
+    .about {
+      ul {
+        float: left;
+        margin: .4rem 0 0 1.3rem;
+        padding: 0;
+        list-style: none;
+        font-size: 1rem;
+        li {
+          margin-bottom: .5rem;
+          &:first-child,
+          span {
+            font-weight: 600;
+          }
+        }
+      }
+    }
+  }
+}
